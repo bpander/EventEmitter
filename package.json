@@ -1,0 +1,23 @@
+{
+  "name": "eventemitter",
+  "version": "0.0.1",
+  "description": "A simple EventEmitter class.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bpander/EventEmitter"
+  },
+  "author": "Brad Anderson <brad.anderson87@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bpander/EventEmitter/issues"
+  },
+  "homepage": "https://github.com/bpander/EventEmitter",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-jsdoc-to-markdown": "^1.2.0"
+  }
+}
