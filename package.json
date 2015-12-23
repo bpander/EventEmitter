@@ -18,6 +18,8 @@
   "homepage": "https://github.com/bpander/EventEmitter",
   "devDependencies": {
     "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-uglify": "^0.11.0",
     "grunt-jsdoc-to-markdown": "^1.2.0"
   }
 }
