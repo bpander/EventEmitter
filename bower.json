@@ -1,0 +1,24 @@
+{
+  "name": "EventEmitter",
+  "version": "0.0.1",
+  "homepage": "https://github.com/bpander/EventEmitter",
+  "authors": [
+    "Bradley Anderson <brad.anderson87@gmail.com>"
+  ],
+  "description": "A simple EventEmitter class",
+  "main": "dist/EventEmitter.js",
+  "keywords": [
+    "EventEmitter",
+    "events"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "package.json"
+  ]
+}
