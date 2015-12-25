@@ -1,19 +1,21 @@
 <a name="module_EventEmitter"></a>
 ## EventEmitter
-A simple EventEmitter class designed for client-side applications. It can be used by itself or as a base class.
+A dead simple EventEmitter class designed for client-side applications. It can be used by itself or as a base class. This implementation omits namespaced events and wildcards for speed and simplicity. It does transmit the event target with the event, though, which is useful.
 
 **Example**  
 ```js
 // A simple implementation.
 var ee = new EventEmitter();
-var handler = function (e) { alert(e.data.message); };
+var handler = function (e) {
+    alert(e.data.message);
+};
 ee.on('error', handler);
 ee.emit('error', { message: 'Refrigerator unable to connect to Facebook' });
 ee.off('error', handler);
 ```
 **Example**  
 ```js
-// A slightly more complicated implementation.
+// A slightly more complicated implementation using EventEmitter as a base class.
 function Carousel () {
     EventEmitter.call(this);
 
